@@ -1,0 +1,43 @@
+4389fb4 (HEAD -> main, feature2, feature1, develop) HEAD@{0}: merge develop: Fast-forward
+b48feff HEAD@{1}: checkout: moving from feature2 to main
+4389fb4 (HEAD -> main, feature2, feature1, develop) HEAD@{2}: merge develop: Fast-forward
+f9f1fb1 HEAD@{3}: checkout: moving from feature1 to feature2
+4389fb4 (HEAD -> main, feature2, feature1, develop) HEAD@{4}: merge develop: Fast-forward
+4920982 HEAD@{5}: checkout: moving from develop to feature1
+4389fb4 (HEAD -> main, feature2, feature1, develop) HEAD@{6}: merge feature2: Merge made by the 'ort' strategy.
+4920982 HEAD@{7}: merge feature1: Fast-forward
+1961712 HEAD@{8}: checkout: moving from feature2 to develop
+f9f1fb1 HEAD@{9}: commit: add styles
+1961712 HEAD@{10}: checkout: moving from develop to feature2
+1961712 HEAD@{11}: checkout: moving from feature1 to develop
+4920982 HEAD@{12}: commit: add images to index.html
+f75f7d4 HEAD@{13}: commit: add images
+1961712 HEAD@{14}: checkout: moving from develop to feature1
+1961712 HEAD@{15}: commit: add index.html, .gitignore
+b48feff HEAD@{16}: checkout: moving from main to develop
+b48feff HEAD@{17}: commit (initial): add README.md
+
+
+107f5cb (HEAD -> main, origin/main, feature4, feature3, develop) HEAD@{0}: Branch: renamed refs/heads/main to refs/heads/main
+107f5cb (HEAD -> main, origin/main, feature4, feature3, develop) HEAD@{2}: merge develop: Fast-forward
+4389fb4 (feature2, feature1) HEAD@{3}: checkout: moving from develop to main
+107f5cb (HEAD -> main, origin/main, feature4, feature3, develop) HEAD@{4}: checkout: moving from feature4 to develop
+107f5cb (HEAD -> main, origin/main, feature4, feature3, develop) HEAD@{5}: checkout: moving from develop to feature4
+107f5cb (HEAD -> main, origin/main, feature4, feature3, develop) HEAD@{6}: checkout: moving from feature3 to develop
+107f5cb (HEAD -> main, origin/main, feature4, feature3, develop) HEAD@{7}: merge develop: Fast-forward
+42c2e4e HEAD@{8}: checkout: moving from develop to feature3
+107f5cb (HEAD -> main, origin/main, feature4, feature3, develop) HEAD@{9}: merge feature4: Fast-forward
+42c2e4e HEAD@{10}: checkout: moving from feature4 to develop
+107f5cb (HEAD -> main, origin/main, feature4, feature3, develop) HEAD@{11}: rebase (continue) (finish): returning to refs/heads/feature4
+107f5cb (HEAD -> main, origin/main, feature4, feature3, develop) HEAD@{12}: commit: fix conflict
+42c2e4e HEAD@{13}: rebase (start): checkout develop
+5418bbf HEAD@{14}: checkout: moving from develop to feature4
+42c2e4e HEAD@{15}: merge feature3: Fast-forward
+4389fb4 (feature2, feature1) HEAD@{16}: checkout: moving from feature3 to develop
+42c2e4e HEAD@{17}: checkout: moving from develop to feature3
+4389fb4 (feature2, feature1) HEAD@{18}: checkout: moving from feature4 to develop
+5418bbf HEAD@{19}: commit: add more styles
+4389fb4 (feature2, feature1) HEAD@{20}: checkout: moving from develop to feature4
+4389fb4 (feature2, feature1) HEAD@{21}: checkout: moving from feature3 to develop
+42c2e4e HEAD@{22}: commit: add more images to index.html
+
